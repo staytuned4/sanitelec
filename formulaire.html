@@ -1,0 +1,86 @@
+<DOCTYPE HTML>
+<html>
+	<head><title>Sanitelec</title>
+	  <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css"  href="css/cssindex.css">
+	</head>
+
+<body>
+
+	<div id="wrapper">
+	
+	<div id="s1"></div>
+	
+	<div class="bloc_r">
+	<h5><a href="index.html">Annuler (Retour Accueil)</a></h5></div>
+	
+	
+		<div id="s2">
+
+		<form name="formulairesani" action="mailto:mail@mail" method="get">
+		  <fieldset> <legend>Formulaire de Contact</legend> <br>
+
+				<!--Nom-->
+				<label for="nom">Nom :</label> <input name="nom" type="text">
+
+				<!--prenom-->
+				<label for="prenom">Pr&#233nom :</label> <input name="prenom" type="text">
+				
+				<br>
+
+				<!--nodetel-->
+				<label for="nodetel">T&#233l&#232phone :</label> <input name="nodetel" type="text">
+
+				<!--email-->
+				<label for="email">E-Mail :</label> <input name="email" type="texte">
+				
+				<br>
+				<br>
+				<tr>
+					<td>Je souhaite &#234tre recontact&#233 par :</td>
+					<td>T&#233l&#233phone :<INPUT type=checkbox name="tel" value="tel">
+					Mail :<INPUT type=checkbox name="email" value="email">
+				</td>
+				<br>
+				<br>
+				<!--motifdelappelunseulchoix-->
+				<label for="jj">Votre appel concerne :</label>
+				D&#233pannage<input name="j" value="depannage" type="radio">
+				Neuf<input name="j" value="neuf" type="radio">
+				R&#233novation<input name="j" value="renovation" type="radio"><br>
+			
+				Devis<input name="devis" value="devis" type="checkbox">
+				<br>
+
+				<tr>
+					<br>
+					<td>Domaine :</td>
+					<td>Plomberie<input type=checkbox name="devisplomberie" value="devisplomberie">
+					<td>Chauffage<input type=checkbox name="devischauffage" value="devischauffage">
+					<td>Electricit&#233<input type=checkbox name="deviselectricite" value="deviselectricite">
+					<br>
+					<br>
+					
+				<!--commentaire-->
+				<tr>
+					<td>Commentaires :</td>
+					<td>
+					<br>
+					<TEXTAREA maxlength="500" name="textarea" rows="10" cols="50" onclick="if (this.value=='500 caract&#232res maximum...') this.value=''">500 caract&#232res maximum...</TEXTAREA>
+					</td>
+					<br>
+					<br>
+					<br>
+					<br>
+				
+				<!---envoyer-->
+				<tr>
+					<TD COLSPAN=2>
+					<INPUT type="submit" value="Envoyer">
+					</td>
+				</tr>
+		</div>	
+		</fieldset>
+	</form> 
+</body>
+</html>
