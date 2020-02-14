@@ -1,0 +1,129 @@
+
+
+#wrapper{
+width:1020px;
+margin:auto;
+
+}
+
+a:link,a:visited{
+	color:#ffffff;
+	text-decoration:none;
+
+}
+
+#s1{
+height:90px;
+width:100%;
+background-image:url("../images/ban.png");
+background-repeat:no-repeat;
+margin:0px 0px 0px 0px;
+}
+
+#main-menu{
+width:100%;
+height:45px;
+margin:auto;
+float:left;
+text-align: center;
+vertical-align: middle;
+}
+
+ul{
+margin:0px;
+padding:0px;
+}
+
+li{
+border: 1px solid white;
+margin: auto;
+padding:0px;
+list-style-image: none;
+width: 150px;
+background-color: #3958af;
+position: relative;
+list-style-type: none;
+list-style-position: outside;
+height: 40px;
+float: left;
+display: block;
+text-align: center;
+vertical-align: middle;
+}
+
+ul ul{
+position:absolute;
+top:40px;
+left:-1px;
+display:none;
+}
+
+ul li:hover > ul {
+display: block;
+color:black;
+}
+
+
+#s2{
+width:750px;
+height: auto;
+float:left;
+margin:0px 10px 10px 0px;
+background-color:#e6ebf9;
+color:#3958af;
+/*arrondir les coins en haut à gauche et en bas à droite*/
+-moz-border-radius:5px ;
+-webkit-border-radius:5px ;
+border-radius:5px;
+}
+.p1{
+width: 175px	
+	}
+
+
+#s3{
+width:250px;
+float:left;
+margin:0px 10px 10px 0px;
+color:#3958af;
+}
+
+
+
+.bloc_r{
+width:240px;
+margin-bottom:10px;
+background-color:#e6ebf9;
+color:#3958af;
+/*arrondir les coins en haut à gauche et en bas à droite*/
+-moz-border-radius:5px ;
+-webkit-border-radius:5px ;
+border-radius:5px;
+
+}
+
+.bloc_r a:link, .bloc_r a:visited{
+	color:grey;
+}
+
+
+
+
+#foot
+{
+width:100%;
+height:20px;
+clear:both;
+margin:10px 0px 10px 0px;
+background-image:url("../images/banbas2.png");
+background-repeat:no-repeat;
+color:white;
+
+
+
+}
+
+
+
+
+
